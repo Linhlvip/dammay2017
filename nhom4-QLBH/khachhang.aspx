@@ -19,7 +19,7 @@
             </Fields>
             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-            <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+            <PagerStyle BackColor="#ccae1b" ForeColor="White" HorizontalAlign="Center" />
             <RowStyle BackColor="#EFF3FB" />
         </asp:DetailsView>
                 <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString2 %>" DeleteCommand="DELETE FROM [khach_hang] WHERE [id_kh] = @id_kh" InsertCommand="INSERT INTO [khach_hang] ([id_kh], [ten], [email], [dia_chi], [sdt]) VALUES (@id_kh, @ten, @email, @dia_chi, @sdt)" SelectCommand="SELECT [id_kh], [ten], [email], [dia_chi], [sdt] FROM [khach_hang]" UpdateCommand="UPDATE [khach_hang] SET [ten] = @ten, [email] = @email, [dia_chi] = @dia_chi, [sdt] = @sdt WHERE [id_kh] = @id_kh">

@@ -22,7 +22,7 @@
             </Fields>
             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-            <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+            <PagerStyle BackColor="#e3a1f9" ForeColor="White" HorizontalAlign="Center" />
             <RowStyle BackColor="#EFF3FB" />
         </asp:DetailsView>
                 <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString2 %>" DeleteCommand="DELETE FROM [san_pham] WHERE [id_sp] = @id_sp" InsertCommand="INSERT INTO [san_pham] ([id_sp], [id_lsp], [ma_sp], [ten_sp], [gia_thanh], [mo_ta], [anh]) VALUES (@id_sp, @id_lsp, @ma_sp, @ten_sp, @gia_thanh, @mo_ta, @anh)" SelectCommand="SELECT [id_sp], [id_lsp], [ma_sp], [ten_sp], [gia_thanh], [mo_ta], [anh] FROM [san_pham]" UpdateCommand="UPDATE [san_pham] SET [id_lsp] = @id_lsp, [ma_sp] = @ma_sp, [ten_sp] = @ten_sp, [gia_thanh] = @gia_thanh, [mo_ta] = @mo_ta, [anh] = @anh WHERE [id_sp] = @id_sp">

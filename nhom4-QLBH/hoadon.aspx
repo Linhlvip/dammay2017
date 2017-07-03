@@ -17,7 +17,7 @@
             </Fields>
             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-            <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+            <PagerStyle BackColor="#bf242b" ForeColor="White" HorizontalAlign="Center" />
             <RowStyle BackColor="#EFF3FB" />
         </asp:DetailsView>
                 <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString2 %>" DeleteCommand="DELETE FROM [hoa_don] WHERE [id_hd] = @id_hd" InsertCommand="INSERT INTO [hoa_don] ([id_hd], [gia_tien], [id_kh]) VALUES (@id_hd, @gia_tien, @id_kh)" SelectCommand="SELECT [id_hd], [gia_tien], [id_kh] FROM [hoa_don]" UpdateCommand="UPDATE [hoa_don] SET [gia_tien] = @gia_tien, [id_kh] = @id_kh WHERE [id_hd] = @id_hd">
